@@ -17,6 +17,12 @@
         "chrisboulton/php-resque": "dev-master",
         "chrisboulton/php-resque-scheduler": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/pandeydip/php-resque.git"
+        }
+    ],
     "autoload": {
         "psr-0": { "BCC\\ResqueBundle": "" }
     },
