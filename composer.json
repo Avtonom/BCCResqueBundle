@@ -20,7 +20,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/pandeydip/php-resque.git"
+            "url": "https://github.com/pandeydip/php-resque"
         }
     ],
     "autoload": {
