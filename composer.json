@@ -1,5 +1,5 @@
 {
-    "name": "bcc/resque-bundle",
+    "name": "pandeydip/resque-bundle",
     "type": "symfony-bundle",
     "description": "BCCResqueBundle",
     "keywords": ["resque job queue management"],
