@@ -18,14 +18,14 @@
         "chrisboulton/php-resque-scheduler": "~1.2"
     },
     "repositories": [
-      {
-        "type": "vcs",
-        "url": "git@github.com:revizto/php-resque.git"
-      },
-      {
-        "type": "vcs",
-        "url": "git@github.com:revizto/php-resque-scheduler.git"
-      }
+        {
+          "type": "vcs",
+          "url": "https://github.com/pandeydip/php-resque"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pandeydip/BCCResqueBundle"
+        }
     ],
     "autoload": {
         "psr-0": { "BCC\\ResqueBundle": "" }

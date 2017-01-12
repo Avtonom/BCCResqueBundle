@@ -36,8 +36,22 @@ Add to your `bcc-resque-bundle` to your dependencies:
 {
     "require": {
         ...
-        "bcc/resque-bundle": "dev-master"
-    }
+        "bcc/resque-bundle": "~1.2"
+    },    
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/Avtonom/BCCResqueBundle"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pandeydip/php-resque"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pandeydip/BCCResqueBundle"
+        }
+    ],
     ...
 }
 ```
